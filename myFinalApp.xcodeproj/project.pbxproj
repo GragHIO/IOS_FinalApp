@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C463A321EF1437C009FBF83 /* SongListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C463A311EF1437C009FBF83 /* SongListTableViewCell.swift */; };
+		8C463A341EF15657009FBF83 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C463A331EF15657009FBF83 /* SongDetailViewController.swift */; };
+		8C7ABFED1EF7B9F80099AA48 /* FavoriteListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7ABFEC1EF7B9F80099AA48 /* FavoriteListTableViewCell.swift */; };
+		8C852C9F1EF257F700EF0096 /* FavoriteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C852C9E1EF257F700EF0096 /* FavoriteListTableViewController.swift */; };
+		CD7458BF1EF0F48E0046AFA8 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7458BE1EF0F48E0046AFA8 /* SongListViewController.swift */; };
 		CDCD64DA1EE7A02A00FC1F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD64D91EE7A02A00FC1F7F /* AppDelegate.swift */; };
 		CDCD64DC1EE7A02B00FC1F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD64DB1EE7A02B00FC1F7F /* ViewController.swift */; };
 		CDCD64DF1EE7A02B00FC1F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCD64DD1EE7A02B00FC1F7F /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C463A311EF1437C009FBF83 /* SongListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListTableViewCell.swift; sourceTree = "<group>"; };
+		8C463A331EF15657009FBF83 /* SongDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		8C7ABFEC1EF7B9F80099AA48 /* FavoriteListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteListTableViewCell.swift; sourceTree = "<group>"; };
+		8C852C9E1EF257F700EF0096 /* FavoriteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteListTableViewController.swift; sourceTree = "<group>"; };
+		CD7458BE1EF0F48E0046AFA8 /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
 		CDCD64D61EE7A02A00FC1F7F /* myFinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCD64D91EE7A02A00FC1F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCD64DB1EE7A02B00FC1F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +110,11 @@
 				CDCD64D91EE7A02A00FC1F7F /* AppDelegate.swift */,
 				CDCD64DB1EE7A02B00FC1F7F /* ViewController.swift */,
 				CDCD64DD1EE7A02B00FC1F7F /* Main.storyboard */,
+				8C7ABFEC1EF7B9F80099AA48 /* FavoriteListTableViewCell.swift */,
+				8C852C9E1EF257F700EF0096 /* FavoriteListTableViewController.swift */,
+				8C463A331EF15657009FBF83 /* SongDetailViewController.swift */,
+				8C463A311EF1437C009FBF83 /* SongListTableViewCell.swift */,
+				CD7458BE1EF0F48E0046AFA8 /* SongListViewController.swift */,
 				CDCD64E01EE7A02B00FC1F7F /* Assets.xcassets */,
 				CDCD64E21EE7A02B00FC1F7F /* LaunchScreen.storyboard */,
 				CDCD64E51EE7A02B00FC1F7F /* Info.plist */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C463A321EF1437C009FBF83 /* SongListTableViewCell.swift in Sources */,
+				8C463A341EF15657009FBF83 /* SongDetailViewController.swift in Sources */,
 				CDCD64DC1EE7A02B00FC1F7F /* ViewController.swift in Sources */,
+				8C852C9F1EF257F700EF0096 /* FavoriteListTableViewController.swift in Sources */,
 				CDCD64DA1EE7A02A00FC1F7F /* AppDelegate.swift in Sources */,
+				CD7458BF1EF0F48E0046AFA8 /* SongListViewController.swift in Sources */,
+				8C7ABFED1EF7B9F80099AA48 /* FavoriteListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myFinalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GrahHIO.myFinalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myFinalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GrahHIO.myFinalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +531,7 @@
 				CDCD65001EE7A02B00FC1F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDCD65011EE7A02B00FC1F7F /* Build configuration list for PBXNativeTarget "myFinalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +540,7 @@
 				CDCD65031EE7A02B00FC1F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDCD65041EE7A02B00FC1F7F /* Build configuration list for PBXNativeTarget "myFinalAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +549,7 @@
 				CDCD65061EE7A02B00FC1F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
